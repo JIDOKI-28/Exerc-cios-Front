@@ -1,2 +1,2 @@
-# Exerc-cios-Front
+# Exercicios-Front
 Exercícios de html, css, javascript.
