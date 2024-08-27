@@ -1,0 +1,17 @@
+body {
+    margin: 0px;
+    height: 100vh;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px; 
+}
+.inputs {
+    display: flex;
+    flex-direction: column;
+}
