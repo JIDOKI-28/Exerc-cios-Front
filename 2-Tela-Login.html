@@ -1,30 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/2-Tela-Login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <title>Login</title>
 </head>
 <body>
-    <main>
-        <div>
-            <h1>Sing In</h1>
+    <main class="container">
+        <div class="login-container">
+            <h1>Sign In</h1>
             <h3>Lorem ipsum dolor sit amet elit. Sapiente sit aut<br>eos consectetur adipisicing.</h3>
             <input class="inputs" type="text" name="Username" required placeholder="Username">
             <input class="inputs" type="password" name="Password" required placeholder="Password">
+            <div class="remenber">
+                <input type="checkbox" name="Remenber">
+                <label for="Remenber">Remember me</label>
+                <a class="forgot" href="">Forgot Password</a>
+            </div>
+            <form class="form">
+                <button class="login css" href="">Log In</button>
+                <p>- or -</p>
+            </form>
+            <form class="button">
+                <button class="facebook css" href="">
+                    <i class="fab fa-facebook-f"></i>
+                    Login with Facebook
+                </button>
+                <button class="twitter css" href="">
+                    <i class="fab fa-twitter"></i>
+                    Login with Twitter
+                </button>
+                <button class="google css" href="">
+                    <i class="fab fa-google"></i>
+                    Login with Google
+                </button>
+            </form>
         </div>
-        <div class="remenber">
-            <input type="checkbox" name="Remenber">
-            <label for="Remenber">Remenber me</label>
-            <a href="">Forgot Password</a>
-        </div>
-        <div class="Buttom">
-            <a href="">Log In</a>
-            <p>- or -</p>
-            <a href="">Login with Facebook</a>
-            <a href="">Login with Twitter</a>
-            <a href="">Login with Google</a>
+        <div class="imagem">
+            <img src="Imagens/mulher-rua.png" alt="Mulher em uma avenida movimentada">
         </div>
     </main>
 </body>
